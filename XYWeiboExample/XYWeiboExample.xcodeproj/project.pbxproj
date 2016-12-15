@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1440DD111DFE796C00E6B584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD101DFE796C00E6B584 /* main.m */; };
+		1440DD141DFE796C00E6B584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD131DFE796C00E6B584 /* AppDelegate.m */; };
+		1440DD1A1DFE796C00E6B584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1440DD181DFE796C00E6B584 /* Main.storyboard */; };
+		1440DD1C1DFE796C00E6B584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1440DD1B1DFE796C00E6B584 /* Assets.xcassets */; };
+		1440DD1F1DFE796C00E6B584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1440DD1D1DFE796C00E6B584 /* LaunchScreen.storyboard */; };
+		1440DD2A1DFE796C00E6B584 /* XYWeiboExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD291DFE796C00E6B584 /* XYWeiboExampleTests.m */; };
+		1440DD351DFE796C00E6B584 /* XYWeiboExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD341DFE796C00E6B584 /* XYWeiboExampleUITests.m */; };
+		1440DD501DFE7BD800E6B584 /* XYTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD4F1DFE7BD800E6B584 /* XYTVController.m */; };
+		1440DD531DFE7BF100E6B584 /* XYTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD521DFE7BF100E6B584 /* XYTVCell.m */; };
+		1440DD561DFE7C1400E6B584 /* XYCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD551DFE7C1400E6B584 /* XYCellItem.m */; };
+		1440DD591DFE7C2A00E6B584 /* XYCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1440DD581DFE7C2A00E6B584 /* XYCellFrame.m */; };
+		14EAB3EA1DFE9238001F96B7 /* UIButton+XYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB3E91DFE9238001F96B7 /* UIButton+XYButton.m */; };
+		14EAB3ED1DFEA6D4001F96B7 /* XYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB3EC1DFEA6D4001F96B7 /* XYCommon.m */; };
+		14EAB4011DFFBA9A001F96B7 /* XYHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAB3F31DFFBA9A001F96B7 /* XYHomeVC.m */; };
+		14EAB4121DFFD419001F96B7 /* praise_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB40E1DFFD419001F96B7 /* praise_selected@2x.png */; };
+		14EAB4131DFFD419001F96B7 /* praise_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB40F1DFFD419001F96B7 /* praise_selected@3x.png */; };
+		14EAB4141DFFD419001F96B7 /* Praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB4101DFFD419001F96B7 /* Praise@2x.png */; };
+		14EAB4151DFFD419001F96B7 /* Praise@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB4111DFFD419001F96B7 /* Praise@3x.png */; };
+		14EAB4181DFFD422001F96B7 /* Comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB4161DFFD422001F96B7 /* Comment@2x.png */; };
+		14EAB4191DFFD422001F96B7 /* Comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB4171DFFD422001F96B7 /* Comment@3x.png */; };
+		14EAB41C1DFFD476001F96B7 /* Transpond@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB41A1DFFD476001F96B7 /* Transpond@2x.png */; };
+		14EAB41D1DFFD476001F96B7 /* Transpond@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14EAB41B1DFFD476001F96B7 /* Transpond@3x.png */; };
+		51AE504B46B123F3A5DFCB94 /* libPods-XYWeiboExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6393E340008FFBC435B313EC /* libPods-XYWeiboExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1440DD261DFE796C00E6B584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1440DD041DFE796C00E6B584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1440DD0B1DFE796C00E6B584;
+			remoteInfo = XYWeiboExample;
+		};
+		1440DD311DFE796C00E6B584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1440DD041DFE796C00E6B584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1440DD0B1DFE796C00E6B584;
+			remoteInfo = XYWeiboExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1440DD0C1DFE796C00E6B584 /* XYWeiboExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWeiboExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1440DD101DFE796C00E6B584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1440DD121DFE796C00E6B584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1440DD131DFE796C00E6B584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1440DD191DFE796C00E6B584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1440DD1B1DFE796C00E6B584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1440DD1E1DFE796C00E6B584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1440DD201DFE796C00E6B584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1440DD251DFE796C00E6B584 /* XYWeiboExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYWeiboExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1440DD291DFE796C00E6B584 /* XYWeiboExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWeiboExampleTests.m; sourceTree = "<group>"; };
+		1440DD2B1DFE796C00E6B584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1440DD301DFE796C00E6B584 /* XYWeiboExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYWeiboExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1440DD341DFE796C00E6B584 /* XYWeiboExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWeiboExampleUITests.m; sourceTree = "<group>"; };
+		1440DD361DFE796C00E6B584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1440DD4E1DFE7BD800E6B584 /* XYTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTVController.h; sourceTree = "<group>"; };
+		1440DD4F1DFE7BD800E6B584 /* XYTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTVController.m; sourceTree = "<group>"; };
+		1440DD511DFE7BF100E6B584 /* XYTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTVCell.h; sourceTree = "<group>"; };
+		1440DD521DFE7BF100E6B584 /* XYTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTVCell.m; sourceTree = "<group>"; };
+		1440DD541DFE7C1400E6B584 /* XYCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCellItem.h; sourceTree = "<group>"; };
+		1440DD551DFE7C1400E6B584 /* XYCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCellItem.m; sourceTree = "<group>"; };
+		1440DD571DFE7C2900E6B584 /* XYCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCellFrame.h; sourceTree = "<group>"; };
+		1440DD581DFE7C2A00E6B584 /* XYCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCellFrame.m; sourceTree = "<group>"; };
+		14EAB3E71DFE83FB001F96B7 /* XYCONSTANT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCONSTANT.h; sourceTree = "<group>"; };
+		14EAB3E81DFE9238001F96B7 /* UIButton+XYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XYButton.h"; sourceTree = "<group>"; };
+		14EAB3E91DFE9238001F96B7 /* UIButton+XYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XYButton.m"; sourceTree = "<group>"; };
+		14EAB3EB1DFEA6D4001F96B7 /* XYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommon.h; sourceTree = "<group>"; };
+		14EAB3EC1DFEA6D4001F96B7 /* XYCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCommon.m; sourceTree = "<group>"; };
+		14EAB3F21DFFBA9A001F96B7 /* XYHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHomeVC.h; sourceTree = "<group>"; };
+		14EAB3F31DFFBA9A001F96B7 /* XYHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHomeVC.m; sourceTree = "<group>"; };
+		14EAB40E1DFFD419001F96B7 /* praise_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise_selected@2x.png"; sourceTree = "<group>"; };
+		14EAB40F1DFFD419001F96B7 /* praise_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "praise_selected@3x.png"; sourceTree = "<group>"; };
+		14EAB4101DFFD419001F96B7 /* Praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Praise@2x.png"; sourceTree = "<group>"; };
+		14EAB4111DFFD419001F96B7 /* Praise@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Praise@3x.png"; sourceTree = "<group>"; };
+		14EAB4161DFFD422001F96B7 /* Comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Comment@2x.png"; sourceTree = "<group>"; };
+		14EAB4171DFFD422001F96B7 /* Comment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Comment@3x.png"; sourceTree = "<group>"; };
+		14EAB41A1DFFD476001F96B7 /* Transpond@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Transpond@2x.png"; sourceTree = "<group>"; };
+		14EAB41B1DFFD476001F96B7 /* Transpond@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Transpond@3x.png"; sourceTree = "<group>"; };
+		6393E340008FFBC435B313EC /* libPods-XYWeiboExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYWeiboExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F64EEF7BAF02126F1156F6 /* Pods-XYWeiboExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWeiboExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYWeiboExample/Pods-XYWeiboExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3B773EEBD630EA22A8C664 /* Pods-XYWeiboExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWeiboExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYWeiboExample/Pods-XYWeiboExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1440DD091DFE796C00E6B584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51AE504B46B123F3A5DFCB94 /* libPods-XYWeiboExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1440DD221DFE796C00E6B584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1440DD2D1DFE796C00E6B584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1440DD031DFE796C00E6B584 = {
+			isa = PBXGroup;
+			children = (
+				1440DD0E1DFE796C00E6B584 /* XYWeiboExample */,
+				1440DD281DFE796C00E6B584 /* XYWeiboExampleTests */,
+				1440DD331DFE796C00E6B584 /* XYWeiboExampleUITests */,
+				1440DD0D1DFE796C00E6B584 /* Products */,
+				E8521BED72A3624D664EF165 /* Pods */,
+				9FFE942C6B58806C3ABA7637 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1440DD0D1DFE796C00E6B584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD0C1DFE796C00E6B584 /* XYWeiboExample.app */,
+				1440DD251DFE796C00E6B584 /* XYWeiboExampleTests.xctest */,
+				1440DD301DFE796C00E6B584 /* XYWeiboExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1440DD0E1DFE796C00E6B584 /* XYWeiboExample */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD121DFE796C00E6B584 /* AppDelegate.h */,
+				1440DD131DFE796C00E6B584 /* AppDelegate.m */,
+				14EAB3F01DFFBA9A001F96B7 /* XYClasses */,
+				1440DD451DFE7A7000E6B584 /* XYWeiboCells */,
+				1440DD181DFE796C00E6B584 /* Main.storyboard */,
+				1440DD1B1DFE796C00E6B584 /* Assets.xcassets */,
+				1440DD1D1DFE796C00E6B584 /* LaunchScreen.storyboard */,
+				1440DD201DFE796C00E6B584 /* Info.plist */,
+				1440DD0F1DFE796C00E6B584 /* Supporting Files */,
+			);
+			path = XYWeiboExample;
+			sourceTree = "<group>";
+		};
+		1440DD0F1DFE796C00E6B584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD101DFE796C00E6B584 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1440DD281DFE796C00E6B584 /* XYWeiboExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD291DFE796C00E6B584 /* XYWeiboExampleTests.m */,
+				1440DD2B1DFE796C00E6B584 /* Info.plist */,
+			);
+			path = XYWeiboExampleTests;
+			sourceTree = "<group>";
+		};
+		1440DD331DFE796C00E6B584 /* XYWeiboExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD341DFE796C00E6B584 /* XYWeiboExampleUITests.m */,
+				1440DD361DFE796C00E6B584 /* Info.plist */,
+			);
+			path = XYWeiboExampleUITests;
+			sourceTree = "<group>";
+		};
+		1440DD451DFE7A7000E6B584 /* XYWeiboCells */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD461DFE7ABB00E6B584 /* XYModels */,
+				1440DD471DFE7ABB00E6B584 /* XYViews */,
+			);
+			path = XYWeiboCells;
+			sourceTree = "<group>";
+		};
+		1440DD461DFE7ABB00E6B584 /* XYModels */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD541DFE7C1400E6B584 /* XYCellItem.h */,
+				1440DD551DFE7C1400E6B584 /* XYCellItem.m */,
+				1440DD571DFE7C2900E6B584 /* XYCellFrame.h */,
+				1440DD581DFE7C2A00E6B584 /* XYCellFrame.m */,
+			);
+			path = XYModels;
+			sourceTree = "<group>";
+		};
+		1440DD471DFE7ABB00E6B584 /* XYViews */ = {
+			isa = PBXGroup;
+			children = (
+				1440DD4E1DFE7BD800E6B584 /* XYTVController.h */,
+				1440DD4F1DFE7BD800E6B584 /* XYTVController.m */,
+				1440DD511DFE7BF100E6B584 /* XYTVCell.h */,
+				1440DD521DFE7BF100E6B584 /* XYTVCell.m */,
+				14EAB3E71DFE83FB001F96B7 /* XYCONSTANT.h */,
+				14EAB3E81DFE9238001F96B7 /* UIButton+XYButton.h */,
+				14EAB3E91DFE9238001F96B7 /* UIButton+XYButton.m */,
+				14EAB3EB1DFEA6D4001F96B7 /* XYCommon.h */,
+				14EAB3EC1DFEA6D4001F96B7 /* XYCommon.m */,
+			);
+			path = XYViews;
+			sourceTree = "<group>";
+		};
+		14EAB3F01DFFBA9A001F96B7 /* XYClasses */ = {
+			isa = PBXGroup;
+			children = (
+				14EAB3F11DFFBA9A001F96B7 /* XYHomePage */,
+				14EAB3F41DFFBA9A001F96B7 /* XYTestImgs */,
+			);
+			path = XYClasses;
+			sourceTree = "<group>";
+		};
+		14EAB3F11DFFBA9A001F96B7 /* XYHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				14EAB3F21DFFBA9A001F96B7 /* XYHomeVC.h */,
+				14EAB3F31DFFBA9A001F96B7 /* XYHomeVC.m */,
+			);
+			path = XYHomePage;
+			sourceTree = "<group>";
+		};
+		14EAB3F41DFFBA9A001F96B7 /* XYTestImgs */ = {
+			isa = PBXGroup;
+			children = (
+				14EAB41A1DFFD476001F96B7 /* Transpond@2x.png */,
+				14EAB41B1DFFD476001F96B7 /* Transpond@3x.png */,
+				14EAB4161DFFD422001F96B7 /* Comment@2x.png */,
+				14EAB4171DFFD422001F96B7 /* Comment@3x.png */,
+				14EAB40E1DFFD419001F96B7 /* praise_selected@2x.png */,
+				14EAB40F1DFFD419001F96B7 /* praise_selected@3x.png */,
+				14EAB4101DFFD419001F96B7 /* Praise@2x.png */,
+				14EAB4111DFFD419001F96B7 /* Praise@3x.png */,
+			);
+			path = XYTestImgs;
+			sourceTree = "<group>";
+		};
+		9FFE942C6B58806C3ABA7637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6393E340008FFBC435B313EC /* libPods-XYWeiboExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8521BED72A3624D664EF165 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F64EEF7BAF02126F1156F6 /* Pods-XYWeiboExample.debug.xcconfig */,
+				AA3B773EEBD630EA22A8C664 /* Pods-XYWeiboExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1440DD0B1DFE796C00E6B584 /* XYWeiboExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1440DD391DFE796C00E6B584 /* Build configuration list for PBXNativeTarget "XYWeiboExample" */;
+			buildPhases = (
+				C071A8C8201D6B2403EBC172 /* [CP] Check Pods Manifest.lock */,
+				1440DD081DFE796C00E6B584 /* Sources */,
+				1440DD091DFE796C00E6B584 /* Frameworks */,
+				1440DD0A1DFE796C00E6B584 /* Resources */,
+				BE76434DCE838D012EBDCD9A /* [CP] Embed Pods Frameworks */,
+				1F841D9449A41905562CA4B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYWeiboExample;
+			productName = XYWeiboExample;
+			productReference = 1440DD0C1DFE796C00E6B584 /* XYWeiboExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1440DD241DFE796C00E6B584 /* XYWeiboExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1440DD3C1DFE796C00E6B584 /* Build configuration list for PBXNativeTarget "XYWeiboExampleTests" */;
+			buildPhases = (
+				1440DD211DFE796C00E6B584 /* Sources */,
+				1440DD221DFE796C00E6B584 /* Frameworks */,
+				1440DD231DFE796C00E6B584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1440DD271DFE796C00E6B584 /* PBXTargetDependency */,
+			);
+			name = XYWeiboExampleTests;
+			productName = XYWeiboExampleTests;
+			productReference = 1440DD251DFE796C00E6B584 /* XYWeiboExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1440DD2F1DFE796C00E6B584 /* XYWeiboExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1440DD3F1DFE796C00E6B584 /* Build configuration list for PBXNativeTarget "XYWeiboExampleUITests" */;
+			buildPhases = (
+				1440DD2C1DFE796C00E6B584 /* Sources */,
+				1440DD2D1DFE796C00E6B584 /* Frameworks */,
+				1440DD2E1DFE796C00E6B584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1440DD321DFE796C00E6B584 /* PBXTargetDependency */,
+			);
+			name = XYWeiboExampleUITests;
+			productName = XYWeiboExampleUITests;
+			productReference = 1440DD301DFE796C00E6B584 /* XYWeiboExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1440DD041DFE796C00E6B584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "吕欣宇";
+				TargetAttributes = {
+					1440DD0B1DFE796C00E6B584 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1440DD241DFE796C00E6B584 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1440DD0B1DFE796C00E6B584;
+					};
+					1440DD2F1DFE796C00E6B584 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1440DD0B1DFE796C00E6B584;
+					};
+				};
+			};
+			buildConfigurationList = 1440DD071DFE796C00E6B584 /* Build configuration list for PBXProject "XYWeiboExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1440DD031DFE796C00E6B584;
+			productRefGroup = 1440DD0D1DFE796C00E6B584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1440DD0B1DFE796C00E6B584 /* XYWeiboExample */,
+				1440DD241DFE796C00E6B584 /* XYWeiboExampleTests */,
+				1440DD2F1DFE796C00E6B584 /* XYWeiboExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1440DD0A1DFE796C00E6B584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EAB4141DFFD419001F96B7 /* Praise@2x.png in Resources */,
+				14EAB4181DFFD422001F96B7 /* Comment@2x.png in Resources */,
+				1440DD1F1DFE796C00E6B584 /* LaunchScreen.storyboard in Resources */,
+				14EAB41D1DFFD476001F96B7 /* Transpond@3x.png in Resources */,
+				1440DD1C1DFE796C00E6B584 /* Assets.xcassets in Resources */,
+				14EAB4191DFFD422001F96B7 /* Comment@3x.png in Resources */,
+				14EAB41C1DFFD476001F96B7 /* Transpond@2x.png in Resources */,
+				1440DD1A1DFE796C00E6B584 /* Main.storyboard in Resources */,
+				14EAB4131DFFD419001F96B7 /* praise_selected@3x.png in Resources */,
+				14EAB4121DFFD419001F96B7 /* praise_selected@2x.png in Resources */,
+				14EAB4151DFFD419001F96B7 /* Praise@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1440DD231DFE796C00E6B584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1440DD2E1DFE796C00E6B584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F841D9449A41905562CA4B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYWeiboExample/Pods-XYWeiboExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE76434DCE838D012EBDCD9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYWeiboExample/Pods-XYWeiboExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C071A8C8201D6B2403EBC172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1440DD081DFE796C00E6B584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EAB4011DFFBA9A001F96B7 /* XYHomeVC.m in Sources */,
+				14EAB3EA1DFE9238001F96B7 /* UIButton+XYButton.m in Sources */,
+				1440DD141DFE796C00E6B584 /* AppDelegate.m in Sources */,
+				1440DD501DFE7BD800E6B584 /* XYTVController.m in Sources */,
+				1440DD561DFE7C1400E6B584 /* XYCellItem.m in Sources */,
+				1440DD591DFE7C2A00E6B584 /* XYCellFrame.m in Sources */,
+				1440DD111DFE796C00E6B584 /* main.m in Sources */,
+				14EAB3ED1DFEA6D4001F96B7 /* XYCommon.m in Sources */,
+				1440DD531DFE7BF100E6B584 /* XYTVCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1440DD211DFE796C00E6B584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1440DD2A1DFE796C00E6B584 /* XYWeiboExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1440DD2C1DFE796C00E6B584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1440DD351DFE796C00E6B584 /* XYWeiboExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1440DD271DFE796C00E6B584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1440DD0B1DFE796C00E6B584 /* XYWeiboExample */;
+			targetProxy = 1440DD261DFE796C00E6B584 /* PBXContainerItemProxy */;
+		};
+		1440DD321DFE796C00E6B584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1440DD0B1DFE796C00E6B584 /* XYWeiboExample */;
+			targetProxy = 1440DD311DFE796C00E6B584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1440DD181DFE796C00E6B584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1440DD191DFE796C00E6B584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1440DD1D1DFE796C00E6B584 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1440DD1E1DFE796C00E6B584 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1440DD371DFE796C00E6B584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1440DD381DFE796C00E6B584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1440DD3A1DFE796C00E6B584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F64EEF7BAF02126F1156F6 /* Pods-XYWeiboExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYWeiboExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYWeiboExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1440DD3B1DFE796C00E6B584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3B773EEBD630EA22A8C664 /* Pods-XYWeiboExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYWeiboExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYWeiboExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1440DD3D1DFE796C00E6B584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYWeiboExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYWeiboExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYWeiboExample.app/XYWeiboExample";
+			};
+			name = Debug;
+		};
+		1440DD3E1DFE796C00E6B584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYWeiboExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYWeiboExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYWeiboExample.app/XYWeiboExample";
+			};
+			name = Release;
+		};
+		1440DD401DFE796C00E6B584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYWeiboExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYWeiboExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYWeiboExample;
+			};
+			name = Debug;
+		};
+		1440DD411DFE796C00E6B584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYWeiboExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XY.XYWeiboExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYWeiboExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1440DD071DFE796C00E6B584 /* Build configuration list for PBXProject "XYWeiboExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1440DD371DFE796C00E6B584 /* Debug */,
+				1440DD381DFE796C00E6B584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1440DD391DFE796C00E6B584 /* Build configuration list for PBXNativeTarget "XYWeiboExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1440DD3A1DFE796C00E6B584 /* Debug */,
+				1440DD3B1DFE796C00E6B584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1440DD3C1DFE796C00E6B584 /* Build configuration list for PBXNativeTarget "XYWeiboExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1440DD3D1DFE796C00E6B584 /* Debug */,
+				1440DD3E1DFE796C00E6B584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1440DD3F1DFE796C00E6B584 /* Build configuration list for PBXNativeTarget "XYWeiboExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1440DD401DFE796C00E6B584 /* Debug */,
+				1440DD411DFE796C00E6B584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1440DD041DFE796C00E6B584 /* Project object */;
+}
