@@ -8,7 +8,7 @@
 //  博客:http://blog.csdn.net/cry__boy
 
 #import <UIKit/UIKit.h>
-#import "XYCONSTANT.h"
+#import "XYWeiboCONSTANT.h"
 @interface UIButton (XYButton)
 
 @property (nonatomic,strong)NSString * xy_btnBgImgName;

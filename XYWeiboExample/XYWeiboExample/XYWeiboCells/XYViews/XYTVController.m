@@ -9,7 +9,7 @@
 
 #import "XYTVController.h"
 #import "XYTVCell.h"
-#import "XYCONSTANT.h"
+#import "XYWeiboCONSTANT.h"
 #import "IDMPhoto.h"
 #import "IDMPhotoBrowser.h"
 @interface XYTVController ()<XYCellTouchMethodsDelegate>

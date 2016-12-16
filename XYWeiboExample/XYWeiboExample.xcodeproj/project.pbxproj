@@ -72,7 +72,7 @@
 		1440DD551DFE7C1400E6B584 /* XYCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCellItem.m; sourceTree = "<group>"; };
 		1440DD571DFE7C2900E6B584 /* XYCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCellFrame.h; sourceTree = "<group>"; };
 		1440DD581DFE7C2A00E6B584 /* XYCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCellFrame.m; sourceTree = "<group>"; };
-		14EAB3E71DFE83FB001F96B7 /* XYCONSTANT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCONSTANT.h; sourceTree = "<group>"; };
+		14C898D91E03BFA700977532 /* XYWeiboCONSTANT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWeiboCONSTANT.h; sourceTree = "<group>"; };
 		14EAB3E81DFE9238001F96B7 /* UIButton+XYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XYButton.h"; sourceTree = "<group>"; };
 		14EAB3E91DFE9238001F96B7 /* UIButton+XYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XYButton.m"; sourceTree = "<group>"; };
 		14EAB3EB1DFEA6D4001F96B7 /* XYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCommon.h; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 				1440DD4F1DFE7BD800E6B584 /* XYTVController.m */,
 				1440DD511DFE7BF100E6B584 /* XYTVCell.h */,
 				1440DD521DFE7BF100E6B584 /* XYTVCell.m */,
-				14EAB3E71DFE83FB001F96B7 /* XYCONSTANT.h */,
+				14C898D91E03BFA700977532 /* XYWeiboCONSTANT.h */,
 				14EAB3E81DFE9238001F96B7 /* UIButton+XYButton.h */,
 				14EAB3E91DFE9238001F96B7 /* UIButton+XYButton.m */,
 				14EAB3EB1DFEA6D4001F96B7 /* XYCommon.h */,

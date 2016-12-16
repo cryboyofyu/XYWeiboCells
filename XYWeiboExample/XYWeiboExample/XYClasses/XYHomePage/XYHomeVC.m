@@ -8,7 +8,7 @@
 //  博客:http://blog.csdn.net/cry__boy
 
 #import "XYHomeVC.h"
-#import "XYCONSTANT.h"
+#import "XYWeiboCONSTANT.h"
 #import "XYTVController.h"
 #import "XYCellItem.h"
 #import "XYTVCell.h"
