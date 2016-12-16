@@ -3,7 +3,8 @@
 ===
 <br>个人邮箱：892569921@qq.com [我的CSDN](http://blog.csdn.net/cry__boy):http://blog.csdn.net/cry__boy <br/>
 ___
-<br>cocoapods添加：‘XYWeiboCells’<br/> 
+<br>添加方法：cocoapods<br/>
+<br>pod ‘XYWeiboCells’<br/> 
 ___
 ---
 <br>1.方法：<br/>
@@ -86,7 +87,6 @@ xyFrame.xy_cellItem.itemPraiseStr = [NSString stringWithFormat:@"%ld",(long)prai
 
 } 
 ```
-
-<br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！**<br/>  
+<br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！**<br/>
 <br>**如果小弟的一点点薄力可以给大家带来便利，小弟三生有幸！会再接再厉！您的支持就是我的动力！**<br/>
 <br>**还有《自定义表情键盘》《自定义九宫格》，感兴趣的要关注哦！**<br/>
