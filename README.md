@@ -20,12 +20,11 @@ _xyTVController.tableView.backgroundColor = xy_grayColor;    [
 self.view addSubview:_xyTVController.tableView];    
 
 遵守协议：《XYTVControllerDelegate》 
-```
 
-<br>2.对接接口：（头像，cell，图片放大，点赞，转发，评论）<br/>
 
- <br>#pragma mark-lv ---------------------代理位置------------------------------<br/>
-```objective-c
+2.对接接口：（头像，cell，图片放大，点赞，转发，评论）
+
+ #pragma mark-lv ---------------------代理位置------------------------------
 (void)xy_cellSelectedDelegate:(id)sender withIndexPath:(NSIndexPath *)indexPath{ NSLog(@"\n进入了详情页\n"); }
 
 (void)xy_tableViewCellHeadTap:(id)sender withObject:(id)object{ NSLog(@"\n进入了个人页\n"); }
