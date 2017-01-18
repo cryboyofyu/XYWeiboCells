@@ -9,9 +9,9 @@
 <br>1.高度优化cell流畅度</br>
 <br>2.预缓存UI高度</br>
 <br>3.懒加载数据</br>
-<br>4.封装开放事件接口</br>
+<br>4.高度封装接口</br>
 <br>效果图</br>
-![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow1.gif) ![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow1.gif)
+![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow1.gif)    ![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow2.gif)    ![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow3.gif)   
 <br>1.方法：<br/>
 ```objective-c
  _xyTVController = [[XYTVController alloc]init]; 
