@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XYWeiboExample/XYWeiboCells/XYViews/XYTVController.m"
-            timestampString = "503313241.797968"
+            filePath = "XYWeiboExample/XYClasses/XYHomePage/XYHomeVC.m"
+            timestampString = "506416187.184689"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "-xy_tableViewCellHeadTap:withObject:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,28 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "XYWeiboExample/XYWeiboCells/XYViews/XYTVCell.m"
-            timestampString = "503312207.556899"
+            timestampString = "506416229.399401"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "-setXy_cellFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XYWeiboExample/XYWeiboCells/XYViews/XYTVController.m"
-            timestampString = "503313241.797968"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "-xy_statusFrame"
+            startingLineNumber = "495"
+            endingLineNumber = "495"
+            landmarkName = "-xy_headTap:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

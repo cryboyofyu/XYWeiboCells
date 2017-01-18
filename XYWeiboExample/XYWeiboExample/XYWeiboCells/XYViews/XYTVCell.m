@@ -471,7 +471,7 @@
 }
 
 - (void)xy_addAllTouchMethod{
-    UITapGestureRecognizer * headTap =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(headTap:)];
+    UITapGestureRecognizer * headTap =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(xyHeadTap:)];
     [self.xy_headImgView addGestureRecognizer:headTap];
     
     [self.xy_transpondBtn addTarget:self action:@selector(xy_transpondBtnClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -491,7 +491,7 @@
     }
 }
 
-- (void)xy_headTap:(UITapGestureRecognizer *)sender{
+- (void)xyHeadTap:(UITapGestureRecognizer *)sender{
     if([self.xy_cellDelegate respondsToSelector:@selector(xy_headTapDelegate:withObject:)]){
         [self.xy_cellDelegate xy_headTapDelegate:sender withObject:self];
     }
