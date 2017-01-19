@@ -2,16 +2,17 @@
 自定义类似微博界面（图文混排，优化流畅性，高度封装）
 ===
 <br>个人邮箱：892569921@qq.com [我的CSDN](http://blog.csdn.net/cry__boy):http://blog.csdn.net/cry__boy <br/>
-<br>添加方法：cocoapods<br/>
-<br>pod ‘XYWeiboCells’<br/> 
----
-<br>依赖库:'XYJGG','YYImage','IDMPhotoBrowser','YYText'<br/>
+<br>QQ技术群:549943887</br>
+___
 <br>1.高度优化cell流畅度</br>
 <br>2.预缓存UI高度</br>
 <br>3.懒加载数据</br>
 <br>4.高度封装接口</br>
 <br>效果图</br>
 ![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow1.gif)    ![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow2.gif)    ![image](https://github.com/cryboyofyu/XYWeiboCells/blob/master/XYWeiboExample/XYWeiboExample/XYClasses/XYTestImgs/XYWeiboCellShow3.gif)   
+<br>添加方法：cocoapods<br/>
+<br>pod ‘XYWeiboCells’<br/> 
+<br>依赖库:'XYJGG','YYImage','IDMPhotoBrowser','YYText'<br/>
 <br>1.方法：<br/>
 ```objective-c
  _xyTVController = [[XYTVController alloc]init]; 
@@ -92,6 +93,6 @@ xyFrame.xy_cellItem.itemPraiseStr = [NSString stringWithFormat:@"%ld",(long)prai
 } 
 ```
 ---
-<br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！点个星哈**<br/>
+<br>**欢迎大家提意见，一起交流学习，会根据大家的反馈及时更新。谢谢！别忘了点个星哦～**<br/>
 <br>**如果小弟的一点点薄力可以给大家带来便利，小弟三生有幸！会再接再厉！您的支持就是我的动力！**<br/>
 <br>**还有《自定义表情键盘》《自定义九宫格》《消息角标》《高仿微信群组界面》，感兴趣的要关注哦！**<br/>
